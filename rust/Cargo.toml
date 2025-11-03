@@ -26,16 +26,10 @@ tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 
 # HTTP dependencies
 axum = { version = "0.7.4", features = ["json"] }
-axum-tracing-opentelemetry = "0.18.1"
-base64 = "0.22.1"
-tower-http = { version = "0.5.1", features = ["cors"] }
-utoipa = { version = "4.2", features = ["axum_extras"] }
-utoipa-swagger-ui = { version = "7.1", features = ["axum", "vendored"] }
 
 
 [dependencies]
 axum = {workspace = true}
 tokio = {workspace = true}
 tracing-subscriber = { workspace = true }
-core = {path = "core"}
-rust-api = {path = "api"}
+
