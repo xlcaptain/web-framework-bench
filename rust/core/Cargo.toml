@@ -1,0 +1,9 @@
+[package]
+name = "core"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+config = "0.15.18"
+serde = { workspace = true }
+axum = { workspace = true }

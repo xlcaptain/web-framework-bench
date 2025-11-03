@@ -1,0 +1,12 @@
+[package]
+name = "rust-api"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+homepage.workspace = true
+
+
+[dependencies]
+axum = {workspace = true}
+serde = { workspace = true }
+core = { path = "../core" }
