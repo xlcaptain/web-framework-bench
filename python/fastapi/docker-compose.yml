@@ -1,0 +1,18 @@
+services:
+  fastapi_backend:
+    image: complaint_12315:v2.0
+    container_name: fastapi_benchmark
+    restart: unless-stopped
+    volumes:
+      - ./:/workspace/
+      - /workspace/.venv
+    working_dir: /workspace
+    environment:
+      - TZ=Asia/Shanghai
+    ports:
+      - "3030:3000"
+    # 使用 --workers 参数直接指定 worker 数量（默认4个）
+    # 可以通过修改下面的 --workers 数值来更改
+    # 示例：--workers 8 表示使用8个worker进程
+    # 注意：使用 uv pip install 后，可以直接使用 uvicorn 命令
+    command: uv run -m uvicorn main:app --host 0.0.0.0 --port 3000 --workers 4 --loop uvloop

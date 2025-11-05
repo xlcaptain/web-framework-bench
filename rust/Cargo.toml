@@ -32,4 +32,7 @@ axum = { version = "0.7.4", features = ["json"] }
 axum = {workspace = true}
 tokio = {workspace = true}
 tracing-subscriber = { workspace = true }
+num_cpus = "1.16"
+core = {path = "core"}
+rust-api = {path = "api"}
 

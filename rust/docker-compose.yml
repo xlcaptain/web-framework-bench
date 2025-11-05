@@ -1,0 +1,13 @@
+services:
+  axum-app:
+    image: axum-app:latest
+    container_name: axum-server
+    ports:
+      - "3000:3000"
+    environment:
+      - RUST_LOG=info
+    restart: unless-stopped
+    ulimits:
+      nofile:
+        soft: 200000
+        hard: 200000
