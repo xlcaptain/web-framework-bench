@@ -44,6 +44,7 @@ A benchmarking project comparing web framework performance: Rust (Axum) and Pyth
 *Latency distribution across percentiles (P50, P90, P95, P99) showing Rust consistently outperforms FastAPI*
 </div>
 
+
 #### Resource Efficiency
 
 | Metric | FastAPI | Rust (Axum) | Efficiency Gain |
@@ -57,9 +58,12 @@ A benchmarking project comparing web framework performance: Rust (Axum) and Pyth
 
 *Resource usage comparison showing memory efficiency, process count, and memory-per-RPS metrics*
 
-![Performance Improvement](https://github.com/xlcaptain/web-framework-bench/blob/main/static/performance_improvement.png)
+
+<div align="center">
+<img src="https://github.com/xlcaptain/web-framework-bench/blob/main/static/performance_improvement.png" alt="Performance Improvement" width="60%">
 
 *Performance improvement multipliers showing Rust's advantage across all metrics*
+</div>
 
 ### Test Configuration
 
