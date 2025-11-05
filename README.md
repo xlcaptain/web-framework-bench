@@ -38,7 +38,7 @@ A benchmarking project comparing web framework performance: Rust (Axum) and Pyth
 | **Max Latency** | 278.81 ms | 238.91 ms | **1.17x faster** |
 | **Error Rate** | 0.00% | 0.00% | Equal |
 
-<img src="https://github.com/xlcaptain/web-framework-bench/blob/main/static/latency_percentiles.png" alt="Latency Percentiles" width="600">
+<img src="https://github.com/xlcaptain/web-framework-bench/blob/main/static/latency_percentiles.png" alt="Latency Percentiles" width="60%">
 
 *Latency distribution across percentiles (P50, P90, P95, P99) showing Rust consistently outperforms FastAPI*
 
