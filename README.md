@@ -3,7 +3,7 @@
 
 A benchmarking project comparing web framework performance: Rust (Axum) and Python (FastAPI). Includes standardized API endpoints, automated test scripts, and performance metrics for throughput, latency, and resource usage.
 
-<div align="right">
+<div align="center">
   <strong>Language / 语言:</strong>
   <a href="README.md">English</a> |
   <a href="README_zh.md">中文</a>

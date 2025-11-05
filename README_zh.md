@@ -1,7 +1,7 @@
 
 # Web 框架性能对比测试套件
 
-<div align="right">
+<div align="center">
   <strong>Language / 语言:</strong>
   <a href="README.md">English</a> |
   <a href="README_zh.md">中文</a>
