@@ -75,9 +75,11 @@ A benchmarking project comparing web framework performance: Rust (Axum) and Pyth
 
 ### Performance Radar Analysis
 
-![Performance Radar](https://github.com/xlcaptain/web-framework-bench/blob/main/static/performance_radar.png)
+<div align="center">
+<img src="https://github.com/xlcaptain/web-framework-bench/blob/main/static/performance_radar.png" alt="Performance Radar" width="60%">
 
 *Multi-dimensional performance comparison showing Rust's superior performance across throughput, latency, and efficiency metrics*
+</div>
 
 ### Conclusion
 
