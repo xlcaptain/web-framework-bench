@@ -15,7 +15,7 @@ A benchmarking project comparing web framework performance: Rust (Axum) and Pyth
 - **6x lower memory usage**: 202.1 MiB vs 1,244 MiB (1.215 GiB)
 - **Zero error rate** for both frameworks under test load
 
-![Performance Comparison](performance_comparison.png)
+![Performance Comparison](https://github.com/xlcaptain/web-framework-bench/blob/main/static/performance_comparison.png)
 
 *Comprehensive performance metrics showing throughput, average latency, and p95 latency comparison*
 
