@@ -1,12 +1,6 @@
 
 # Web 框架性能对比测试套件
 
-<div align="center">
-  <strong>Language / 语言:</strong>
-  <a href="README.md">English</a> |
-  <a href="README_zh.md">中文</a>
-</div>
-
 一个对比 Web 框架性能的基准测试项目：Rust (Axum) 和 Python (FastAPI)。包含标准化的 API 端点、自动化测试脚本，以及吞吐量、延迟和资源使用等性能指标。
 
 ## 🚀 性能总结
