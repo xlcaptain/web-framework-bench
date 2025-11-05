@@ -33,7 +33,7 @@ A benchmarking project comparing web framework performance: Rust (Axum) and Pyth
 | **Max Latency** | 278.81 ms | 238.91 ms | **1.17x faster** |
 | **Error Rate** | 0.00% | 0.00% | Equal |
 
-![Latency Percentiles](latency_percentiles.png)
+![Latency Percentiles](https://github.com/xlcaptain/web-framework-bench/blob/main/static/latency_percentiles.png)
 
 *Latency distribution across percentiles (P50, P90, P95, P99) showing Rust consistently outperforms FastAPI*
 
@@ -46,11 +46,11 @@ A benchmarking project comparing web framework performance: Rust (Axum) and Pyth
 | **Memory per RPS** | 14.5 KB/RPS | 1.63 KB/RPS | **8.9x more efficient** |
 | **RPS per MiB** | 68.8 RPS/MiB | 612.3 RPS/MiB | **8.9x better** |
 
-![Resource Comparison](resource_comparison.png)
+![Resource Comparison](https://github.com/xlcaptain/web-framework-bench/blob/main/static/resource_comparison.png)
 
 *Resource usage comparison showing memory efficiency, process count, and memory-per-RPS metrics*
 
-![Performance Improvement](performance_improvement.png)
+![Performance Improvement](https://github.com/xlcaptain/web-framework-bench/blob/main/static/performance_improvement.png)
 
 *Performance improvement multipliers showing Rust's advantage across all metrics*
 
@@ -64,7 +64,7 @@ A benchmarking project comparing web framework performance: Rust (Axum) and Pyth
 
 ### Performance Radar Analysis
 
-![Performance Radar](performance_radar.png)
+![Performance Radar](https://github.com/xlcaptain/web-framework-bench/blob/main/static/performance_radar.png)
 
 *Multi-dimensional performance comparison showing Rust's superior performance across throughput, latency, and efficiency metrics*
 
@@ -278,7 +278,7 @@ POST endpoint parsing JSON request body.
 
 ### Complete Results Table
 
-![Performance Table](performance_table.png)
+![Performance Table](https://github.com/xlcaptain/web-framework-bench/blob/main/static/performance_table.png)
 
 *Comprehensive performance metrics table with all collected data points*
 
